@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smiling Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <img src="Gold_Luxury_Initial_Circle_Logo__4_-removebg-preview.png"class="logo">
+    <h1>Smiling Face Images  Gallery </h1>
+        <h2>   "EVERYONE SMILE IN THE SAME LANGUAGE"   </h2>
+    <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+    <div class="gallery">
+        <div class="gallery-item" onclick="openLightbox('smile8.jpg', 350, 500); changeImage(4)">
+            <img src="smile8.jpg" alt="">
+        </div>
+        
+        <div class="gallery-item" onclick="openLightbox('smile23.jpg',550, 500); changeImage(5)">
+            <img src="smile23.jpg" alt="">
+        </div>
+        
+        <div class="gallery-item" onclick="openLightbox('smile12.jpg', 300, 500); changeImage(3)">
+            <img src="smile12.jpg" alt="">
+        </div>
+     <div class="gallery-item" onclick="openLightbox('smile25.jpg',450, 350); changeImage(8)">
+            <img src="smile25.jpg" alt="">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('smile2.jpg', 450, 500); changeImage(2)">
+            <img src="smile2.jpg" alt="">
+        </div>
+        <div class="gallery-item" onclick="openLightbox('smile6.jpg', 400, 550); changeImage(6)">
+            <img src="smile6.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile5.jpg',250, 450); changeImage(7)">
+            <img src="smile5.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile14.jpg',520, 400); changeImage(1)">
+            <img src="smile14.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile10.jpg',450, 550); changeImage(9)">
+            <img src="smile10.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile4.jpg',420, 460); changeImage(10)">
+            <img src="smile4.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile1.jpg',380, 480); changeImage(11)">
+            <img src="smile1.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile16.jpg',390, 560); changeImage(12)">
+            <img src="smile16.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile17.jpg',340, 475); changeImage(13)">
+            <img src="smile17.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile18.jpg',280, 340); changeImage(14)">
+            <img src="smile18.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile13.jpg',470, 500); changeImage(15)">
+            <img src="smile13.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile24.jpg',550, 430); changeImage(16)">
+            <img src="smile24.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile3.jpg',390, 600); changeImage(17)">
+            <img src="smile3.jpg" alt="">
+        </div>
+         <div class="gallery-item" onclick="openLightbox('smile15.jpg',290,450); changeImage(18)">
+            <img src="smile15.jpg" alt="">
+        </div>
+          <div class="gallery-item" onclick="openLightbox('smile7.jpg',455, 555); changeImage(19)">
+            <img src="smile7.jpg" alt="">
+        </div>
+          <div class="gallery-item" onclick="openLightbox('smile21.jpg',290, 650); changeImage(20)">
+            <img src="smile21.jpg" alt="">
+        </div>
+          <div class="gallery-item" onclick="openLightbox('smile20.jpg',370, 460); changeImage(21)">
+            <img src="smile20.jpg" alt="">
+        </div>
+    </div>
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="close">&times;</span>
+    <img class="lightbox-image" id="lightboxImage">
+</div>
+
+    </div>
+    <script>
+              let ham = document.querySelector(".navbar");
+              ham = document.addEventListener("click",() =>{
+                document.querySelector(".navbar").classList.toggle("active");
+              })
+            </script>
+<footer>
+        <p>© 2024 Rediet Mamo. smiling Face Image Gallery. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
